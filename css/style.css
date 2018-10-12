@@ -1,0 +1,103 @@
+body,html,h1,h2,h3,h4,span,p{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}   
+body{
+    height: 100%;
+    border: 20px solid #fff;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/Gotham-Light.otf") format("truetype");
+}
+
+@font-face{
+    font-family: "deadhead";
+    src: url("../fonts/Deadhead Script.otf") format("truetype");
+}
+
+@font-face{
+    font-family: "GothamL";
+    src: url("../fonts/Gotham-XLightIta.otf") format("truetype");
+}
+
+.home{
+    height: 100vh;
+}
+
+.home-container{
+    background-image: linear-gradient(#00B4DB, #0083B0);
+    width: 100%;
+    height: 95.2%;
+    color: white;
+    
+}
+
+.name{
+    font-family: "deadhead";
+}
+
+.name-job{
+    text-align: center;
+    padding-top: 10em;
+    width: 100%;
+}
+
+.name-job h1{
+    font-size: 3.5em;
+    letter-spacing: 2.66px;
+}
+
+.job{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Gotham";
+}
+.job h2{
+    font-size: 1.4em;
+    font-weight: lighter;
+    font-family: "GothamL";
+}
+
+.job span{
+    font-size: 1.4em;
+}
+
+.job h3{
+    font-size: 1.4em;
+    font-family: "GothamL";
+}
+
+h2,h3,span{
+    display: inline;
+    font-size: 2.2vw;
+}
+
+.presentation{
+    text-align: center;
+    padding-top: 8em;
+    font-size: 2.2vh;
+    letter-spacing: 1.22px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.presentation h4{
+    padding-bottom: 0.5em;
+}
+
+.presentation p{
+    font-family: "GothamL";
+    font-size: 1.6vh;
+}
+
+.prese-projet{
+    text-align: center;
+    margin-top: 17vw;
+    font-family: "GothamL";
+}
+
+
