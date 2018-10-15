@@ -101,3 +101,44 @@ h2,h3,span{
 }
 
 
+.projet-arrow{
+    text-align: center;
+    font-family: "arrial";
+    font-size: 3vh;
+}
+
+.projet{
+    background-color: #181818;
+    color: #fff;
+}
+
+.header-projet{
+    padding-top: 2vw;
+    text-align: center;
+}
+
+.header-projet h2{
+    font-family: "Gotham";
+    padding-bottom: 2em;
+}
+
+.header-projet h3{
+    font-family: "Gotham";
+    font-size: 2vh;
+}
+
+.content-projet{
+    padding-top: 4vw;
+}
+.projet-left{
+    padding-bottom: 2vw;
+    padding-left: 19%;
+}
+
+.projet-right{
+    padding-bottom: 2vw;
+    padding-left: 50%;
+}
+
+
+
