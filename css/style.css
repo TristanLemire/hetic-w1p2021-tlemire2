@@ -5,8 +5,7 @@ body,html,h1,h2,h3,h4,span,p{
 }   
 body{
     height: 100%;
-    border: 20px solid #fff;
-    box-sizing: border-box;
+    background-color: #181818;
 }
 
 @font-face {
@@ -25,7 +24,9 @@ body{
 }
 
 .home{
-    height: 100vh;
+    height: 105.5vh;
+    /*border: 20px solid #fff;
+    box-sizing: border-box;*/
 }
 
 .home-container{
@@ -112,60 +113,68 @@ h2,h3,span{
 }
 
 .projet{
-    background-image: linear-gradient(#181818,#000000);
+    background-color: #181818;
     color: #fff;
-    overflow: hidden;
+    width: 100%;
 }
 
 .header-projet{
     padding-top: 2vw;
     text-align: center;
     padding-bottom: 1em;
+    font-family: "Gotham";
 }
 
 .header-projet h2{
-    font-family: "Gotham";
     padding-bottom: 2em;
 }
 
 .header-projet h3{
-    font-family: "Gotham";
     font-size: 2vh;
 }
 
-/*.content-projet{
-    padding-top: 1vw;
-    margin: 0 auto;
+/* Grid styles -------------------------------------------------*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 15px;
+  }
+  
+  @media (min-width: 700px) {
+    .leading-bigtext {
+      font-size: 140px;
+    }
+  }
+    
+  .cards {
+    max-width: 1600px;
+    margin: 0 auto 30px;
+    padding-left: 15px;;
+    padding-right: 15px;
+    padding-top: 15px;
+    
+  }
+  
+  article {
+    position: relative;
+  }
+  
+  .article-img {
+    height: 200px;
     width: 100%;
-    overflow: hidden;
-    padding-bottom: 1em;
-}*/
-
-.one-projet{
-    float: left;
-    border-radius: 8px;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    width: 31.5vw;
-    height: 20vh;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    text-align: center;
-}
-
-.hairfax{
-    background: url(http://www.tristanlemire.com/images/hairfax.jpg);
-}
-
-.kaptourisme{
-    background: url(http://www.tristanlemire.com/images/kaptourisme.jpg);
-}
-
-.gsb{
-    background: url(http://www.tristanlemire.com/images/Batiinterim.jpg);
-}
-
-.batiinterim{
-    background: url(http://www.tristanlemire.com/images/gsb.jpg);
-}
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .article-title {
+    position: absolute;
+    bottom: 3px;
+    width: 95%;
+    padding: 10px;
+    background-color: rgba(18, 18, 18, 0.2);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  
 
