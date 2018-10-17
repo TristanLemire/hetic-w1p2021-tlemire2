@@ -4,8 +4,15 @@ body,html,h1,h2,h3,h4,span,p{
     font-weight: normal;
 }   
 body{
-    height: 100%;
-    background-color: #181818;
+    /*background-image: linear-gradient(
+        #00c6ff,#0072ff);*/
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.25), 
+        rgba(0, 0, 0, 0.25)
+        ), url("../images/background.png");
+    
+    background-size: cover;
+
 }
 
 @font-face {
@@ -32,11 +39,10 @@ body{
     height: 105.5vh;
     /*border: 20px solid #fff;
     box-sizing: border-box;*/
+    border-top-left-radius: 5px;
 }
 
 .home-container{
-    background-image: linear-gradient(
-        #00c6ff,#0072ff);
     width: 100%;
     height: 95%;
     color: white;
@@ -111,7 +117,7 @@ h2,h3,span{
 
 .home-down{
     position: absolute;
-    top: 93%; left: 50%; /* à 50%/50% du parent référent */
+    top: 96%; left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
     text-align: center;
     max-width: 100%;
@@ -121,6 +127,9 @@ h2,h3,span{
     background-color: #181818;
     color: #fff;
     width: 100%;
+    height: 100%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
 }
 
 .header-projet{
