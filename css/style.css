@@ -23,6 +23,11 @@ body{
     src: url("../fonts/Gotham-XLightIta.otf") format("truetype");
 }
 
+@font-face{
+    font-family: "SinaNova";
+    src: url("../fonts/SinaNov.otf") format("truetype");
+}
+
 .home{
     height: 105.5vh;
     /*border: 20px solid #fff;
@@ -157,6 +162,7 @@ h2,h3,span{
   
   article {
     position: relative;
+    text-align: center;
   }
   
   .article-img {
@@ -165,15 +171,42 @@ h2,h3,span{
     object-fit: cover;
     border-radius: 5px;
   }
+
+  .article-title:hover {
+    -webkit-filter: opacity(100%);
+  }
   
   .article-title {
     position: absolute;
     bottom: 3px;
-    width: 95%;
+    width: 96%;
+    height: 89%;
     padding: 10px;
-    background-color: rgba(18, 18, 18, 0.2);
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-radius: 5px;
+    -webkit-filter: opacity(0%);
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+
+  .p-title{
+      margin-top: 70px;
+      margin-bottom: 0;
+      font-family: "SinaNova";
+      font-size: 1.65rem;
+      font-weight: 300;
+      letter-spacing: 0;
+  }
+
+  br{
+    margin: 0;
+    padding: 0;
+  }
+
+  .p-job {
+      font-family: "GothamL";
+      color: #edb624;
+      font-size: 1rem;
   }
   
   
