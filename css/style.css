@@ -59,7 +59,7 @@ body{
 }
 
 .name{
-    font-family: "Quatum";
+    font-family: "deadhead";
     background: linear-gradient(to right, #909090 0%, #fff 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
