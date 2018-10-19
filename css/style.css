@@ -144,7 +144,7 @@ h2,h3,span{
 }
 
 .header-projet{
-    padding-top: 4vw;
+    padding-top: 4em;
     text-align: center;
     padding-bottom: 1em;
     font-family: "Gotham";
@@ -495,6 +495,6 @@ h2,h3,span{
 .cityshadow {
     z-index: 0;
     position: absolute;
-    top: 75%; left: 50%; /* à 50%/50% du parent référent */
+    top: 77%; left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
