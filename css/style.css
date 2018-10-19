@@ -12,6 +12,9 @@ body{
         ), url("../images/background.png");
     
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: 110vh;
 
 }
@@ -79,17 +82,17 @@ body{
     font-family: "Gotham";
 }
 .job h2{
-    font-size: 1.4em;
+    font-size: 1.4vh;
     font-weight: lighter;
     font-family: "GothamL";
 }
 
 .job span{
-    font-size: 1.4em;
+    font-size: 1.4vh;
 }
 
 .job h3{
-    font-size: 1.4em;
+    font-size: 1.4vh;
     font-family: "GothamL";
 }
 
@@ -125,8 +128,9 @@ h2,h3,span{
 }
 
 .home-down{
+    z-index: 2;
     position: absolute;
-    top: 93%; left: 50%; /* à 50%/50% du parent référent */
+    top: 85%; left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
     text-align: center;
     max-width: 100%;
@@ -140,7 +144,7 @@ h2,h3,span{
 }
 
 .header-projet{
-    padding-top: 2vw;
+    padding-top: 4vw;
     text-align: center;
     padding-bottom: 1em;
     font-family: "Gotham";
@@ -148,6 +152,7 @@ h2,h3,span{
 
 .header-projet h2{
     padding-bottom: 2em;
+    font-size: 4vh;
 }
 
 .header-projet h3{
@@ -485,4 +490,11 @@ h2,h3,span{
         -o-transform: scale(1, 0);
         transform: scale(1, 0);
     }
+}
+
+.cityshadow {
+    z-index: 0;
+    position: absolute;
+    top: 75%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
