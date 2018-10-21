@@ -11,7 +11,7 @@ body{
         rgba(0, 0, 0, 0.25)
         ), url("../images/background.png");*/
 
-    background-color: #EAE0D5;
+    background-color: #FFFCF2;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -104,7 +104,7 @@ h2,h3,span{
 
 .presentation{
     text-align: center;
-    padding-top: 2em;
+    padding-top: 4em;
     font-size: 2.2vh;
     letter-spacing: 1.22px;
     padding-left: 5%;
@@ -131,7 +131,7 @@ h2,h3,span{
 .home-down{
     z-index: 2;
     position: absolute;
-    top: 78%; left: 50%; /* à 50%/50% du parent référent */
+    top: 65%; left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
     text-align: center;
     max-width: 100%;
@@ -494,8 +494,14 @@ h2,h3,span{
 }
 
 .cityshadow {
+    background: url(../images/CityShadow.png);
+    width: 100%;
+    height: 56vh; 
+    POSITION: absolute;
+    top: 50%;
+    /*width: 100%;
     z-index: 0;
     position: absolute;
-    top: 77%; left: 50%; /* à 50%/50% du parent référent */
-    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    top: 80%; left: 50%; 
+    transform: translate(-50%, -50%); */
 }
