@@ -503,9 +503,9 @@ h2,h3,span{
     background: url(../images/CityShadow.png);
     background-size: cover;
     width: 100%;
-    height: 56vh; 
+    height: 70vh; 
     POSITION: absolute;
-    top: 63%;
+    top: 45%;
     /*width: 100%;
     z-index: 0;
     position: absolute;
