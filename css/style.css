@@ -68,7 +68,7 @@ body{
 
 .name-job{
     text-align: center;
-    padding-top: 10em;
+    padding-top: 10%;
     width: 100%;
 }
 
@@ -130,9 +130,10 @@ h2,h3,span{
 
 .home-down{
     z-index: 2;
-    position: absolute;
-    top: 65%; left: 50%; /* à 50%/50% du parent référent */
-    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    padding-top: 6%;
+    /*position: absolute;*/
+    /*top: 65%; left: 50%;*/ /* à 50%/50% du parent référent */
+    /*transform: translate(-50%, -50%);*/ /* décalage de 50% de sa propre taille */
     text-align: center;
     max-width: 100%;
 }
