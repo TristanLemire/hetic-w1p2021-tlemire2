@@ -523,3 +523,31 @@ footer{
     color: #fff;
     text-align: center;
 }
+
+.contact-padd{
+    padding-bottom: 28px;
+}
+
+.contact-padd h2{
+    font-family: 'Gotham';
+    font-size: 28px;
+}
+
+.contact-padd h3{
+    font-family: 'Gotham';
+    font-size: 18px;
+}
+
+.contact-padd p{
+    font-family: 'GothamL';
+    font-size: 16px;
+}
+
+.contact-padd a{
+    text-decoration: none;
+    color: white;
+}
+
+.fab {
+   font-size: 18PX; 
+}
