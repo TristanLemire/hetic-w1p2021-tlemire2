@@ -16,7 +16,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     height: 110vh;
-    color: #FFF;
+    color: #000;
     background-color: #FD940A;
     background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
     
@@ -52,7 +52,7 @@ body{
     height: 105.5vh;
     /*border: 20px solid #fff;
     box-sizing: border-box;*/
-    border: #fff;
+    border: #fff ;
     border-style: solid;
     border-width: 18px;
 }
@@ -60,13 +60,13 @@ body{
 .home-container{
     width: 100%;
     height: 95%;
-    color: #fff;
+    color: #000;
     
 }
 
 .name{
     font-family: "deadhead";
-    background: linear-gradient(to right, #fff 0%, #fff 100%);
+    background: linear-gradient(to right, #000 0%, #000 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -88,17 +88,17 @@ body{
     font-family: "Gotham";
 }
 .job h2{
-    font-size: 1.4vh;
+    font-size: 1.5em;
     font-weight: lighter;
     font-family: "GothamL";
 }
 
 .job span{
-    font-size: 1.4vh;
+    font-size: 1.5em;
 }
 
 .job h3{
-    font-size: 1.4vh;
+    font-size: 1.5em;
     font-family: "GothamL";
 }
 
@@ -118,7 +118,7 @@ h2,h3,span{
 
 .presentation p{
     font-family: "GothamL";
-    font-size: 1.6vh;
+    font-size: 1em;
 }
 
 .prese-projet{
@@ -258,8 +258,8 @@ h2,h3,span{
     padding: 0;
     width: 8px;
     height: 8px;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
     behavior: url(-ms-transform.htc);
     -moz-transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
@@ -270,7 +270,7 @@ h2,h3,span{
 #scroll-title {
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
   font-family: Helvetica Neue, Helvetica, Arial;
   font-size:14px;
   font-weight:bold;
@@ -295,7 +295,7 @@ h2,h3,span{
     margin-left: -1px;
     width: 2px;
     height: 45px;
-    background: #fff;
+    background: #000;
     content: ' ';
 }
 @-webkit-keyframes elasticus {
@@ -511,4 +511,15 @@ h2,h3,span{
     position: absolute;
     top: 80%; left: 50%; 
     transform: translate(-50%, -50%); */
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+}
+
+.contact {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
 }
