@@ -606,7 +606,7 @@ footer a:hover{
 
 .boutonmenu:hover {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-family: "Gotham";
     font-size: 14px;
     -webkit-transition: all 1s;
